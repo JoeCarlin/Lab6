@@ -14,10 +14,10 @@ public class WTCCarlinBoykin {
      * @return landOptions, The options for land transportation returned as a string.
      */
     public static String land(){
-        Bus greyhound = new Bus(25,70,8.50,"Ticket");
-        Train  rockyMountaineer= new Train(100,80,12.75,"Ticket");
-        Bike schwinn = new Bike(2,30,8.50,"Rental");
-        Automobile toyota = new Automobile(4,100,32,"Rental");
+        Bus greyhound = new Bus(25,70,8.50,"Ticket", 6, "Yes");
+        Train  rockyMountaineer = new Train(100,80,12.75,"Ticket", 30, "Yes");
+        Bike schwinn = new Bike(2,30,8.50,"Rental", 2, "Yes");
+        Automobile toyota = new Automobile(4,100,32,"Rental", 4, "No");
         return "Bus: " + greyhound + "\nTrain: " + rockyMountaineer + "\nBike: " +schwinn + "\nAutomobile: " + toyota;
     }
 }
