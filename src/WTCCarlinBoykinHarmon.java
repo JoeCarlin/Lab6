@@ -1,6 +1,6 @@
 //Driver Class
 
-public class WTCCarlinBoykin {
+public class WTCCarlinBoykinHarmon {
 
     public static void main(String[] args){
         String landOptions = land();  // Call land method and return a string of landTransportation objects
