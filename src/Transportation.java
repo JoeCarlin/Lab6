@@ -1,4 +1,7 @@
 // Worked on by Joseph Carlin
+// Worked on by Connor Harmon 10/3/2024. Added a value check for ticketOrRental in the constructor
+
+import java.util.Locale;
 
 /**
  * The Transportation class represents a general mode of transportation.
@@ -25,7 +28,13 @@ public class Transportation {
         this.capacity = capacity;
         this.maxSpeed = maxSpeed;
         this.cost = cost;
-        this.ticketOrRental = ticketOrRental;
+
+        if(ticketOrRental.equalsIgnoreCase("ticket") || ticketOrRental.equalsIgnoreCase("rental")){
+            this.ticketOrRental = ticketOrRental.toLowerCase();
+        }
+        else{
+            this.ticketOrRental = "";
+        }
     }
 
     /**
