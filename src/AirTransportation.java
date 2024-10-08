@@ -1,16 +1,3 @@
-<<<<<<< Updated upstream
-public class AirTransportation {
-    // attributes
-
-
-
-    public AirTransportation(){
-
-
-    }
-
-
-=======
 // AirTransportation class representing air-based modes of transportation.
 // Worked on by Joseph Carlin
 
@@ -64,5 +51,5 @@ public class AirTransportation extends Transportation {
     public String toString() {
         return "Air Transportation: " + super.toString() + ", Air Type: " + airType;
     }
->>>>>>> Stashed changes
+
 }
