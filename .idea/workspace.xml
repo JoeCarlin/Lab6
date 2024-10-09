@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cafb886a-d0be-403f-935e-0474c1b7e542" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AirTransportation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AirTransportation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HotAirBalloon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HotAirBalloon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;AirTransportationClass&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
