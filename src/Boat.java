@@ -3,12 +3,12 @@
 /**
  * The boat class is a subclass of WaterTransportation
  * that represents a boat object
- * contains an operatorType variable that says whether the
+ * contains an ownerType variable that says whether the
  * boat is owned by an individual or a company
  */
 public class Boat extends WaterTransportation{
     //attributes
-    private String operatorType;
+    private String ownerType;
 
     /**
      * creates a boat object with all attributes and superclass attributes
@@ -17,34 +17,34 @@ public class Boat extends WaterTransportation{
      * @param cost the cost to ride the boat
      * @param ticketOrRental whether the user is buying a ticket or renting the boat
      * @param poweredBy how the boat is powered
-     * @param operatorType whether the boat is owned by an individual or company, must input "individual" or "company"
+     * @param ownerType whether the boat is owned by an individual or company, must input "individual" or "company"
      *                or variable will be set to an empty string
      */
-    public Boat(int capacity, float maxSpeed, double cost, String ticketOrRental, String poweredBy, String operatorType){
+    public Boat(int capacity, float maxSpeed, double cost, String ticketOrRental, String poweredBy, String ownerType){
         super(capacity, maxSpeed, cost, ticketOrRental, poweredBy);
 
         //validity check for ownedBy
-        if(operatorType.equalsIgnoreCase("individual")){
-            this.operatorType = "individual";
+        if(ownerType.equalsIgnoreCase("individual")){
+            this.ownerType = "individual";
         }
-        else if(operatorType.equalsIgnoreCase("company")){
-            this.operatorType = "company";
+        else if(ownerType.equalsIgnoreCase("company")){
+            this.ownerType = "company";
         }
         else{
-            this.operatorType = "";
+            this.ownerType = "";
         }
     }
 
-    public String getOperatorType(){
-        return operatorType;
+    public String getOwnerType(){
+        return ownerType;
     }
 
-    public void setOperatorType(String ownedBy){
-        this.operatorType = ownedBy;
+    public void setOwnerType(String ownedBy){
+        this.ownerType = ownedBy;
     }
 
     @Override
     public String toString(){
-        return super.toString() + ", owned by: " + operatorType;
+        return super.toString() + ", owned by: " + ownerType;
     }
 }
