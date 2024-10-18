@@ -15,6 +15,13 @@ public class WTCCarlinBoykinHarmon {
         Boat GenericBoat = new Boat(4, 15, 250, "rental", "sail", "individual");
         Ship CruiseShip = new Ship(1000, 500, 1000, "ticket", "steam", true);
 
+        //air options
+        Plane Boeing = new Plane(100, 600, 2000, "ticket", 300)
+        Helicopter Sikorsky = new Helicopter(2, 500, 1500, "rental", 6000)
+        Dirigible airship = new Dirigible(5, 20, 1000, "rental", 800)
+        HotAirBalloon balloon = new HotAirBalloon(4, 10, 800, "ticket", 500)
+
+
         String[] names = {"Bus", "Train", "Bike", "Automobile"};
         LandTransportation[] landOptions = {greyhound, rockyMountaineer, schwinn, toyota};
         for(int i = 0; i < names.length; i++){
