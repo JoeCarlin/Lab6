@@ -14,5 +14,11 @@ public class WTCCarlinBoykinHarmon {
         Submarine Titan = new Submarine(5, 50, 100000, "Ticket", "nuclear", 50000);
         Boat GenericBoat = new Boat(4, 15, 250, "rental", "sail", "individual");
         Ship CruiseShip = new Ship(1000, 500, 1000, "ticket", "steam", true);
+
+        String[] names = {"Bus", "Train", "Bike", "Automobile"};
+        LandTransportation[] landOptions = {greyhound, rockyMountaineer, schwinn, toyota};
+        for(int i = 0; i < names.length; i++){
+            System.out.printf("%-15s%s\n",names[i], landOptions[i]);
+        }
     }
 }
