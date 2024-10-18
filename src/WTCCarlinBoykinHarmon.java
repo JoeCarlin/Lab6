@@ -16,16 +16,22 @@ public class WTCCarlinBoykinHarmon {
         Ship CruiseShip = new Ship(1000, 500, 1000, "ticket", "steam", true);
 
         //air options
-        Plane Boeing = new Plane(100, 600, 2000, "ticket", 300)
-        Helicopter Sikorsky = new Helicopter(2, 500, 1500, "rental", 6000)
-        Dirigible airship = new Dirigible(5, 20, 1000, "rental", 800)
-        HotAirBalloon balloon = new HotAirBalloon(4, 10, 800, "ticket", 500)
+        Plane Boeing = new Plane(100, 600, 2000, "ticket", 300);
+        Helicopter Sikorsky = new Helicopter(2, 500, 1500, "rental", 6000);
+        Dirigible airship = new Dirigible(5, 20, 1000, "rental", 800);
+        HotAirBalloon balloon = new HotAirBalloon(4, 10, 800, "ticket", 500);
 
 
-        String[] names = {"Bus", "Train", "Bike", "Automobile"};
+        String[] landNames = {"Bus", "Train", "Bike", "Automobile"};
         LandTransportation[] landOptions = {greyhound, rockyMountaineer, schwinn, toyota};
-        for(int i = 0; i < names.length; i++){
-            System.out.printf("%-15s%s\n",names[i], landOptions[i]);
+        for(int i = 0; i < landNames.length; i++){
+            System.out.printf("%-15s%s\n", landNames[i], landOptions[i]);
+        }
+
+        String[] waterNames = {"Submarine", "Boat", "Ship"};
+        WaterTransportation[] waterOptions = {Titan, GenericBoat, CruiseShip};
+        for(int i = 0; i < waterNames.length; i++){
+            System.out.printf("%-15s%S\n", waterNames[i], waterOptions[i]);
         }
     }
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cafb886a-d0be-403f-935e-0474c1b7e542" name="Changes" comment="created Ship and Boat classes">
+    <list default="true" id="cafb886a-d0be-403f-935e-0474c1b7e542" name="Changes" comment="added watertransportation objects">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WTCCarlinBoykinHarmon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WTCCarlinBoykinHarmon.java" afterDir="false" />
     </list>
@@ -35,6 +35,9 @@
     &quot;accountId&quot;: &quot;79f9c250-d89a-4c43-8dea-b1006445761c&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -72,7 +75,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728781507679</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed operatorType variable to ownerType">
+      <option name="closed" value="true" />
+      <created>1729257320724</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729257320724</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added watertransportation objects">
+      <option name="closed" value="true" />
+      <created>1729257476043</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729257476043</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +107,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created Ship and Boat classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="created Ship and Boat classes" />
+    <MESSAGE value="changed operatorType variable to ownerType" />
+    <MESSAGE value="added watertransportation objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="added watertransportation objects" />
   </component>
 </project>
