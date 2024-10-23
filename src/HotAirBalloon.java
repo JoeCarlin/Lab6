@@ -48,6 +48,6 @@ public class HotAirBalloon extends AirTransportation {
      */
     @Override
     public String toString() {
-        return "Hot Air Balloon: " + super.toString() + ", Balloon Volume: " + balloonVolume + " cubic meters";
+        return super.toString() + ", Balloon Volume: " + balloonVolume + " cubic meters";
     }
 }

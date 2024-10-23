@@ -49,6 +49,6 @@ public class Dirigible extends AirTransportation {
      */
     @Override
     public String toString() {
-        return "Dirigible: " + super.toString() + ", Balloon Volume: " + balloonVolume + " cubic meters";
+        return super.toString() + ", Balloon Volume: " + balloonVolume + " cubic meters";
     }
 }

@@ -33,5 +33,11 @@ public class WTCCarlinBoykinHarmon {
         for(int i = 0; i < waterNames.length; i++){
             System.out.printf("%-15s%S\n", waterNames[i], waterOptions[i]);
         }
+
+        String[] airNames = {"Airplane", "Helicopter", "Dirigible", "HotAirBalloon"};
+        AirTransportation[] airOptions = {Boeing, Sikorsky, airship, balloon};
+        for(int i = 0; i < airNames.length; i++){
+            System.out.printf("%-15s%S\n", airNames[i], airOptions[i]);
+        }
     }
 }

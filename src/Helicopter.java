@@ -48,6 +48,6 @@ public class Helicopter extends AirTransportation {
      */
     @Override
     public String toString() {
-        return "Helicopter: " + super.toString() + ", Max Altitude: " + maxAltitude + " meters";
+        return super.toString() + ", Max Altitude: " + maxAltitude + " meters";
     }
 }

@@ -49,7 +49,7 @@ public class AirTransportation extends Transportation {
      */
     @Override
     public String toString() {
-        return "Air Transportation: " + super.toString() + ", Air Type: " + airType;
+        return super.toString() + ", Air Type: " + airType;
     }
 
 }

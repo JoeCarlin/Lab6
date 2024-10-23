@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cafb886a-d0be-403f-935e-0474c1b7e542" name="Changes" comment="added watertransportation objects">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AirTransportation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AirTransportation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dirigible.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dirigible.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Helicopter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helicopter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HotAirBalloon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HotAirBalloon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WTCCarlinBoykinHarmon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WTCCarlinBoykinHarmon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,10 +58,14 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.WTCCarlin.executor&quot;: &quot;Run&quot;,
     &quot;Application.WTCCarlinBoykin.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WTCCarlinBoykinHarmon.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jorda/IdeaProjects/Lab_6&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jorda/IdeaProjects/Lab_6&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

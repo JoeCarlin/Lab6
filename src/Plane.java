@@ -49,6 +49,6 @@ public class Plane extends AirTransportation {
      */
     @Override
     public String toString() {
-        return "Plane: " + super.toString() + ", Wing Span: " + wingSpan + " meters";
+        return super.toString() + ", Wing Span: " + wingSpan + " meters";
     }
 }
