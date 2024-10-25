@@ -116,8 +116,44 @@ public class WTCCarlinBoykinHarmonBarger {
                     userchoice += "es";
                 }
 
-                System.out.printf("%s%.2f%s%.0f%s", "The total cost is: $",totalCost, " for ", totalOfModes, " " + userchoice);
+                 System.out.printf("%s%.2f%s%.0f%s%s", "The total cost is: $",totalCost, " for ", totalOfModes, " " + userchoice, ". ");
             }
+
+            //travel instructions for each mode of transportation
+            if(userchoice.equals("bus")){
+                System.out.println("Your bus departs Wilmington Station at 9:00am.");
+            }
+            if(userchoice.equals("train")){
+                System.out.println("Your train departs Wilmington Depot at 10:30am.");
+            }
+            if(userchoice.equals("bike")){
+                System.out.println("Pick up your bike rental from Wilmington Rentals on 108 College Rd.");
+            }
+            if(userchoice.equals("automobile")){
+                System.out.println("Pick up your automobile rental from Wilmington Rentals on 108 College Rd.");
+            }
+            if(userchoice.equals("submarine")){
+                System.out.println("The submarine departs Wilmington Place at 12:00pm.");
+            }
+            if(userchoice.equals("boat")){
+                System.out.println("Pick up your boat rental from Wilmington Rentals on 13 Front Street.");
+            }
+            if(userchoice.equals("ship")){
+                System.out.println("The ship departs Wilmington Port at 5:00am.");
+            }
+            if(userchoice.equals("plane")){
+                System.out.println("The plane departs Wilmington Airport at 6:30pm.");
+            }
+            if(userchoice.equals("helicopter")){
+                System.out.println("Pick up your helicopter rental from the Wilmington Airport.");
+            }
+            if(userchoice.equals("dirigible")){
+                System.out.println("Pick up your dirigible rental from Wilmington Rentals on 13 Front Street.");
+            }
+            if(userchoice.equals("hot air balloon")){
+                System.out.println("The hot air balloon will set sail at 4:45pm. Please arrive at least 30 minutes early.");
+            }
+
         }while(!confirmation.equalsIgnoreCase("yes"));
     }
 }
